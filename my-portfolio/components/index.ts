@@ -1,0 +1,11 @@
+export { Header } from "./Header";
+export { Hero } from "./Hero";
+export { Infrastructure } from "./Infrastructure";
+export { InfrastructureDiagram } from "./InfrastructureDiagram";
+export { Projects } from "./Projects";
+export { ProjectCard } from "./ProjectCard";
+export { FiscalAProMockup } from "./FiscalAProMockup";
+export { Skills } from "./Skills";
+export { Contact } from "./Contact";
+export { Footer } from "./Footer";
+export { MockupFrame } from "./MockupFrame";
