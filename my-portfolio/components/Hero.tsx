@@ -29,19 +29,19 @@ export function Hero() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="/resume.pdf"
+            href="#contact"
             className="px-8 py-3 bg-tech-green text-tech-black font-semibold rounded-lg hover:bg-tech-cyan transition-colors duration-200"
           >
             View Projects
           </a>
           <a
-            href="/resume.pdf"
+            href="#contact"
             className="px-8 py-3 border border-tech-border text-text-primary font-semibold rounded-lg hover:border-tech-green hover:text-tech-green transition-colors duration-200"
           >
             Download CV
           </a>
           <a
-            href="/resume.pdf"
+            href="#contact"
             className="px-8 py-3 border border-tech-border text-text-primary font-semibold rounded-lg hover:border-tech-green hover:text-tech-green transition-colors duration-200"
           >
             Get In Touch
