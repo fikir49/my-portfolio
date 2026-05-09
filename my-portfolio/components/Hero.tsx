@@ -29,7 +29,7 @@ export function Hero() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="#projects"
+            href="/resume"
             className="px-8 py-3 bg-tech-green text-tech-black font-semibold rounded-lg hover:bg-tech-cyan transition-colors duration-200"
           >
             View Projects
