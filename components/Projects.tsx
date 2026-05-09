@@ -64,7 +64,7 @@ export function Projects() {
               onClick={(e) => e.stopPropagation()}
             >
               <div className="p-8">
-                <div className="flex items-center justify-between mb-6">
+                <div className="relative z-10 flex flex-wrap mt-40 items-center justify-between mb-6">
                   <h3 className="text-2xl font-bold text-tech-green">
                    {selectedProject?.deepDive?.title}
                   </h3>
@@ -85,8 +85,8 @@ export function Projects() {
                 </div>
 
                 <div className="mt-32 pt-6 border-t border-tech-border">
-                  <div className="flex items-center gap-4">
-                    <div className="flex flex-wrap gap-2 relative z-10">
+                  <div className="relative z-10 flex flex-wrap mt-40 items-center gap-4">
+                    <div className="relative z-10 flex flex-wrap mt-40 flex-wrap gap-2 relative z-10">
                       {selectedProject?.tech?.map((tech: string) => (
                         <span
                           key={tech}
