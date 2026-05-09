@@ -9,7 +9,7 @@ const shardEntries = [
 
 export function AcademiaFlowAnimation() {
   return (
-    <div className="relative mx-auto mb-6 max-w-[360px] px-4 py-6 overflow-hidden">
+    <div className="relative mx-auto mb-6 max-w-[360px] px-4 py-6 overflow-hidden z-0">
       <div className="relative flex flex-wrap justify-center gap-4 items-center overflow-hidden z-10">
         <motion.div
           animate={{ scale: [1, 1.08, 1] }}

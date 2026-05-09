@@ -84,9 +84,9 @@ export function Projects() {
                   </div>
                 </div>
 
-                <div className="mt-8 pt-6 border-t border-tech-border">
+                <div className="mt-32 pt-6 border-t border-tech-border">
                   <div className="flex items-center gap-4">
-                    <div className="flex flex-wrap gap-2">
+                    <div className="flex flex-wrap gap-2 relative z-10">
                       {selectedProject?.tech?.map((tech: string) => (
                         <span
                           key={tech}
