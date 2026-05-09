@@ -87,7 +87,7 @@ export function Projects() {
                 <div className="mt-8 pt-6 border-t border-tech-border">
                   <div className="flex items-center gap-4">
                     <div className="flex flex-wrap gap-2">
-                      {selectedProject.tech.map((tech: string) => (
+                      {selectedProject?.tech?.map((tech: string) => (
                         <span
                           key={tech}
                           className="px-3 py-1 text-sm bg-tech-dark text-tech-cyan border border-tech-border rounded-full"
