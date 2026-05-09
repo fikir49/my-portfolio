@@ -15,7 +15,7 @@ export function Header() {
             </a>
           </li>
           <li>
-            <a href="/resume" className="text-text-secondary hover:text-tech-green transition-colors">
+            <a href="./resume.pdf" className="text-text-secondary hover:text-tech-green transition-colors">
               Resume
             </a>
           </li>
