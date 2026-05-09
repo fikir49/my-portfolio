@@ -9,8 +9,8 @@ const shardEntries = [
 
 export function AcademiaFlowAnimation() {
   return (
-    <div className="relative mx-auto mb-6 max-w-[360px] px-4 py-6">
-      <div className="relative flex justify-center items-center">
+    <div className="relative mx-auto mb-6 max-w-[360px] px-4 py-6 overflow-hidden">
+      <div className="relative flex flex-wrap justify-center gap-4 items-center overflow-hidden z-10">
         <motion.div
           animate={{ scale: [1, 1.08, 1] }}
           transition={{ duration: 2.2, repeat: Infinity, ease: 'easeInOut' }}
@@ -39,7 +39,7 @@ export function AcademiaFlowAnimation() {
         ))}
       </div>
 
-      <div className="mt-6 grid grid-cols-3 gap-2 text-[10px] text-text-secondary uppercase tracking-[0.25em] text-center">
+      <div className="z-20 relative mb-8 mt-6 grid grid-cols-3 gap-2 text-[10px] text-text-secondary uppercase tracking-[0.25em] text-center">
         <span className="col-span-3">Encryption → Steganography → Sharding</span>
         <span className="col-span-1 text-tech-green">Shield</span>
         <span className="col-span-2 text-tech-cyan">Split into secure shards</span>

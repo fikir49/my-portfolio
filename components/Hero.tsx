@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center pt-20 px-6">
+    <section className="min-h-screen flex items-center justify-center pt-20 px-6 overflow-hidden">
       <div className="max-w-4xl mx-auto text-center">
         {/* Profile Photo */}
         <div className="mb-10 flex justify-center">
@@ -35,7 +35,7 @@ export function Hero() {
             View Projects
           </a>
           <a
-            href="/Fikir_Wendimnew_Kassa_CV.pdf"
+            href="./resume.pdf"
             className="px-8 py-3 border border-tech-border text-text-primary font-semibold rounded-lg hover:border-tech-green hover:text-tech-green transition-colors duration-200"
           >
             Download CV

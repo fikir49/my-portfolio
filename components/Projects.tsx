@@ -17,7 +17,7 @@ export function Projects() {
   };
 
   return (
-    <section id="projects" className="py-20 px-6 relative">
+    <section id="projects" className="py-20 px-6 relative overflow-hidden">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
