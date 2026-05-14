@@ -23,7 +23,7 @@ export function Hero() {
         </h1>
 
         <p className="mb-8 text-xl text-text-secondary max-w-2xl mx-auto leading-relaxed">
-          Information Systems Student at Bahir Dar University. Focused on System Architecture, Data Integrity, and Decentralized Mobile Development.
+          Systems & Security Engineer. Specialized in High-Stakes Logic, Decentralized Infrastructure, and Mobile-First Intelligence.
         </p>
 
         {/* CTA Buttons - Fixed Routing */}
@@ -57,5 +57,4 @@ export function Hero() {
       </div>
     </section>
   );
-}// Build Trigger: Sun May 10 07:27:11 UTC 2026
-// Force Build: Sun May 10 07:32:06 UTC 2026
+}

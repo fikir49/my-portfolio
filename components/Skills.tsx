@@ -1,16 +1,16 @@
 export function Skills() {
   const skillCategories = [
     {
-      name: "Languages",
-      skills: ["C#", "Dart", "SQL", "TypeScript"],
+      name: "Core Engineering",
+      skills: ["C# / .NET", "Dart / Flutter", "SQL Server", "C++ System Logic"],
     },
     {
-      name: "Frameworks",
-      skills: [".NET", "Flutter", "Next.js 16"],
+      name: "Intelligence Layer",
+      skills: ["Gemini 2.5 Flash", "Computer Vision (OCR)", "Vector Space Modeling"],
     },
     {
-      name: "Expertise",
-      skills: ["System Architecture", "Data Integrity (AES-256)", "P2P Networking"],
+      name: "Security & Ops",
+      skills: ["AES-256 / Steganography", "P2P Sharding Protocols", "mDNS / NSD Discovery"],
     },
   ];
 
@@ -18,10 +18,10 @@ export function Skills() {
     <section id="skills" className="py-20 px-6 bg-tech-dark/50">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold mb-4 text-text-primary">
-          Skills & Expertise
+          Technical Authority
         </h2>
         <p className="text-text-secondary mb-12 max-w-2xl">
-          Focused on secure architecture, resilient data systems, and modern full-stack engineering.
+          Focused on architecting resilient, decentralized ecosystems and privacy-first financial intelligence.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
